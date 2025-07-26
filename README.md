@@ -1,4 +1,4 @@
-# 🩺 Doctor Finder - MERN Stack App
+# 🩺 Doctor Finder 
 
 Doctor Finder is a full-stack web application that allows users to find and book nearby doctors based on location and specialization. It uses geolocation, Google Maps, and MongoDB's geospatial queries to deliver a real-world booking experience.
 
