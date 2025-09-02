@@ -10,7 +10,7 @@ const doctorSchema = new mongoose.Schema({
     required: true
   },
   specialization: {
-    type: String,            // ✅ NEW field added
+    type: String,            
     required: true
   },
   location: {

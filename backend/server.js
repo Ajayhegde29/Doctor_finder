@@ -48,10 +48,10 @@ app.post('/api/doctors', async (req, res) => {
     });
 
     await newDoctor.save();
-    console.log('✅ Doctor saved:', newDoctor);
+    console.log('Doctor saved:', newDoctor);
     res.status(201).json({ message: "Doctor saved successfully" });
   } catch (error) {
-    console.error("❌ Error saving doctor:", error.message);
+    console.error(" Error saving doctor:", error.message);
     res.status(500).json({ error: "Server error" });
   }
 });
